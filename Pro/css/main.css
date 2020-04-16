@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face 
+{
+  font-family:montserrat ;
+  src: url("../Font/Montserrat-Regular.ttf");
+}
+
+.wapper
+{
+	width: 1440px;
+	height: 1200px;
+	background-color: white;
+}
+.header
+{
+	width: 1440px;
+	height: 120px;
+}
+.logo
+{
+	width: 500px;
+	height: 65px;
+	float: left;
+	padding: 55px 0 0 30px;
+}
+.search
+{
+	width: 100px;
+	height: 65px;
+	float: right;
+	padding: 55px 0 0 30px;
+}
+.menu1
+{
+	width: 1440px;
+	height: 105px;
+	font-family:montserrat ;
+}
+.icon
+{
+	width: 233px;
+	height: 55px;
+	float: left;
+	padding: 50px 0 0 30px;
+}
+.buton
+{
+	width: 1120px;
+	height: 105px;
+	float: left;
+}
+.menu1 ul 
+{
+	list-style: none;
+	margin: 0;
+	padding: 0px 0 30px 3px;
+}
+.menu1 ul li
+{
+	padding:5px;
+	float: left;
+	display: block;
+	border: 1px solid#000000;
+	text-align: center;
+	margin:30px 0 0 30px;
+	
+}
+.menu1 ul li a
+{
+	text-decoration: none;
+	padding: 30px;
+	color: #000000;
+}
+
+.menu1 ul li:hover
+{
+	background-color:#5D3522;
+}
+.menu1 ul li a:hover
+{
+	color: white;
+}
+
+
+
+
+
+
+
+
+.menu2 ul li a
+{
+	text-decoration: none;
+	padding: 30px;
+	color: #000000;
+}
+.menu2 ul li a:hover
+{
+	color: #5D3522;
+}
+
+
+.content
+{
+	width: 1440px;
+	height: 900px;
+	font-family:montserrat ;
+}
+.content_01
+{
+	width: 1440px;
+	height: 420px;
+}
+.content_01a
+{
+	width: 263px;
+	height: 420px;
+	float: left;
+}
+
+.menu2
+{
+	width: 260px;
+	height: 400px;
+	font-family:montserrat ;
+}
+.menu2 ul 
+{
+	list-style: none;
+	padding: 10px;
+}
+.menu2 ul li a
+{
+	text-decoration: none;
+}
+.menu2 ul li
+{
+	padding: 10px;
+	text-align: left;
+	margin: 10px;
+	
+}
+
+
+
+
+.content_01b
+{
+	width: 392px;
+	height: 420px;
+	float: left;
+}
+.content_01c
+{
+	width: 392px;
+	height: 420px;
+	float: left;
+}
+.content_01d
+{
+	width: 392px;
+	height: 420px;
+	float: left;
+}
+.content_02
+{
+	width: 1440px;
+	height: 76px;
+	background-color: white;
+}
+.content_03
+{
+	width: 1440px;
+	height: 420px;
+	background-color: white;
+}
+.content_03a
+{
+	width:200px;
+	height: 100px;
+	background-color: white;
+	float: left;
+	padding: 30px;
+}
+.content_03b
+{
+	width: 392px;
+	height: 420px;
+	float: left;
+}
+.content_03c
+{
+	width: 392px;
+	height: 420px;
+	float: left;
+}
+.content_03d
+{
+	width: 392px;
+	height: 420px;
+	float: left;
+}
