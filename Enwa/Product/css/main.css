@@ -45,10 +45,16 @@
 	cursor: pointer;
 }
 
+.mark-up{
+  margin-top: 90px;
+  padding-left:30px;
+}
+
 .buton {
   width: 1120px;
   height: 105px;
   float: left;
+  padding-top:50px;
 }
 .menu1 ul {
   list-style: none;
@@ -92,8 +98,8 @@
   font-family: montserrat;
 }
 .content_01 {
-  width: 1440px;
-  /* width: 1768px; */
+  /* width: 1440px; */
+  width: 100%;
   height: 420px;
 }
 .content_01a {
@@ -119,7 +125,17 @@
   text-align: left;
   margin: 10px;
 }
-
+.sub-body{
+  width:322px;
+}
+.main-collection{
+  float:left;
+  width:900px;
+}
+.sub-collection{
+  float:left;
+  width: 400px;
+}
 .content_01b {
   width: 392px;
   height: 420px;
