@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: montserrat;
+  src: url("../font/Montserrat-Regular.ttf");
+}
+.wapper
+{
+	width: 1440px;
+	height: 1000px;
+	background-color: white;
+	
+}
+.header
+{
+	width: 1440px;
+	height: 120px;
+	background-color: white;
+}
+.logo
+{
+	width: 500px;
+	height: 65px;
+	float: left;
+	padding: 55px 0 0 30px;
+}
+.search
+{
+	width: 100px;
+	height: 65px;
+	float: right;
+	padding: 55px 0 0 30px;
+}
+.content
+{
+	width: 1440px;
+	height: 800px;
+	background-color: white;
+	font-family: montserrat;
+}
+.content_01
+{
+	width: 20%;
+	height: 800px;
+	background-color: white;
+	float: left;
+}
+.menu
+{
+	width: 100%;
+	height: 70%;
+	background-color: white;
+}
+ul
+{
+	list-style: none;
+	padding: 130px 20px 20px 20px;
+}
+ul li
+{
+	padding: 10px;
+}
+ul li a
+{
+	text-decoration: none;
+	color: #000000;
+}
+.enwa
+{
+	width: 100%;
+	height: 30%;
+	background-color: white;
+	padding: 28px;
+}
+
+.content_02
+{
+	width: 73%;
+	height: 800px;
+	background-color: white;
+	float: right;
+	padding: 40px 20px 0 40px;
+}
+
+
+
+
