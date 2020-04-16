@@ -1,79 +1,90 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8" />
-<title>Enwa.decoration</title>
-<link
+  <head>
+    <meta charset="utf-8" />
+    <title>Enwa.decoration</title>
+    <link
       href="css/main.css"
       rel="stylesheet"
       content="width=device-width, initial-scale=1"
     />
-<link href="./css/index.css" rel="stylesheet" />
-<link href="./image/Enwa Logo-03.png" rel="icon" />
-<link href="./css/layout.css" rel="stylesheet" />
-</head>
+    <link href="./css/index.css" rel="stylesheet" />
+    <link href="./image/Enwa Logo-03.png" rel="icon" />
+    <link href="./css/layout.css" rel="stylesheet" />
+  </head>
 
-<body>
-<div class="content">
-  <div class="header">
-    <div class="header-content" id="logo"> <img src="image/Enwa Logo-03.png" height="60" width="70" /> </div>
-    <div class="header-content" id="search-bar">
-      <h2>
-        <label class="search" for="input_search">
-          <input id="input_search" type="text" />
-        </label>
-      </h2>
-    </div>
-  </div>
-  <div id="mySidenav" class="side-nav"> <a href="javascript:void(0)" class="close-btn" onclick="closeNav()"
+  <body>
+    <div class="content">
+      <div class="header">
+        <div class="header-content" id="logo">
+          <img src="image/Enwa Logo-03.png" height="60" width="70" />
+        </div>
+        <div class="header-content" id="search-bar">
+          <h2>
+            <label class="search" for="input_search">
+              <input id="input_search" type="text" />
+            </label>
+          </h2>
+        </div>
+      </div>
+      <div id="mySidenav" class="side-nav">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeNav()"
           >&times;</a
-        > <a href="#">Product</a> <a href="#">Blog</a> <a href="#">About us</a> <a href="#">Contact us</a> <a href="#"><img src="image/shop icon-01.jpg" height="30" /></a> </div>
-  <a class="menu-icon"> <img
+        >
+        <a href="/Product/index.html">PRODUCT</a> 
+        <a href="#">BLOG</a>
+         <a href="#">ABOUT US</a>
+        <a href="#">CONTACT US</a>
+        <a href="#"><img src="image/shop icon-01.jpg" height="30" /></a>
+      </div>
+      <a class="menu-icon">
+        <img
           src="./image/hamburger_icon.png"
           width="150px"
           height="85px"
           onmouseover="openNav()"
-        /> </a>
-  <div class="slides">
-    <section class="slides-nav">
-      <nav class="slides-nav__nav">
-        <button class="slides-nav__prev js-prev">Previous</button>
-        <button class="slides-nav__next js-next">Next</button>
-      </nav>
-    </section>
-    <section>
-      <div class="slide is-active">
-        <div class="slide__content">
-          <figure class="slide__figure">
-            <div class="slide__img" id="slide_1"></div>
-          </figure>
-        </div>
+        />
+      </a>
+      <div class="slides">
+        <section class="slides-nav">
+          <nav class="slides-nav__nav">
+            <button class="slides-nav__prev js-prev">Previous</button>
+            <button class="slides-nav__next js-next">Next</button>
+          </nav>
+        </section>
+        <section>
+          <div class="slide is-active">
+            <div class="slide__content">
+              <figure class="slide__figure">
+                <div class="slide__img" id="slide_1"></div>
+              </figure>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide__content">
+              <figure class="slide__figure">
+                <div class="slide__img" id="slide_2"></div>
+              </figure>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide__content">
+              <figure class="slide__figure">
+                <div class="slide__img" id="slide_3"></div>
+              </figure>
+            </div>
+          </div>
+        </section>
       </div>
-      <div class="slide">
-        <div class="slide__content">
-          <figure class="slide__figure">
-            <div class="slide__img" id="slide_2"></div>
-          </figure>
-        </div>
-      </div>
-      <div class="slide">
-        <div class="slide__content">
-          <figure class="slide__figure">
-            <div class="slide__img" id="slide_3"></div>
-          </figure>
-        </div>
-      </div>
-    </section>
-  </div>
-</div>
-</body>
-<script
+    </div>
+  </body>
+  <script
     src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
     crossorigin="anonymous"
   ></script>
-<script src="./javascript/index.js"></script>
-<script>
+  <script src="./javascript/index.js"></script>
+  <script>
     function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
     }
