@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#slide_1 {
+    background-image: url("../image/slide_show_1.png");
+    background-repeat: no-repeat;
+    background-attachment: local;
+	transition: ease-out;
+	
+}
+#slide_1:hover, .slides-nav:hover + section #slide_1 {
+    background-image: url("../image/slide_show_1_hover.jpg");
+    transition: ease-in-out;
+    transition-duration: 0.75s;
+    background-repeat: repeat;
+    background-attachment: local;
+}
+
+#slide_2 {
+    background-image: url("../image/slide_show_2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+#slide_2:hover, .slides-nav:hover + section #slide_2 {
+    background-image: url("../image/slide_show_2_hover.jpg");
+    transition: ease-in-out;
+    transition-duration: 0.75s;
+    background-repeat: repeat;
+    background-attachment: local;
+}
+#slide_3 {
+    background-image: url("../image/slide_show_3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+#slide_3:hover, .slides-nav:hover + section #slide_3 {
+    background-image: url("../image/slide_show_3_hover.jpg");
+    transition: ease-in-out;
+    transition-duration: 0.75s;
+    background-repeat: repeat;
+    background-attachment: local;
+}
+
+
+@media screen and (max-height: 450px) {
+.side-nav {
+    padding-top: 15px;
+}
+.side-nav a {
+    font-size: 18px;
+}
+
+
+
+
+
+
