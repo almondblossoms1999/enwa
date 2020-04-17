@@ -17,7 +17,7 @@
     <div class="content">
       <div class="header">
         <div class="header-content" id="logo">
-          <img src="image/Enwa Logo-03.png" height="60" width="70" />
+          <img src="image/Enwa Logo-03.png" height="60" width="70" onclick="navigate('./index.html')" />
         </div>
         <div class="header-content" id="search-bar">
           <h2>
@@ -34,7 +34,7 @@
         <a href="Product/items.html">PRODUCT</a> 
         <a href="#">BLOG</a>
          <a href="#">ABOUT US</a>
-        <a href="#">CONTACT US</a>
+        <a href="Enwa - Contact us 2/contact.html">CONTACT US</a>
         <a href="#"><img src="image/shop icon-01.jpg" height="30" /></a>
       </div>
       <a class="menu-icon">
@@ -84,21 +84,5 @@
     crossorigin="anonymous"
   ></script>
   <script src="./javascript/index.js"></script>
-  <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
-    $("#input_search").on("focus", function () {
-      $(this).parent("label").addClass("active");
-    });
-
-    $("#input_search").on("blur", function () {
-      if ($(this).val().length == 0)
-        $(this).parent("label").removeClass("active");
-    });
-  </script>
+  <script src="javascript/layout.js"></script>
 </html>
