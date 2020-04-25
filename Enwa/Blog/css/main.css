@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: montseratt;
+  src: url("../fonts/Montserrat-Regular.otf");
+}
+
+@font-face {
+  font-family: montserattbold;
+  src: url("../fonts/Montserrat-Bold.otf");
+}
+br {
+    display: block;
+    margin-bottom: 2px;
+    font-size:2px;
+    line-height: 1px;
+}
+#logo
+{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#search-bar {
+    padding-top: 50px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.menu-icon {
+    position: relative;
+    z-index: 99;
+    left: 35px;
+    top: 300px;
+}
+
+/*.content {
+  background-color:white;
+  width: 1440px;
+  height: 860px;
+ position: fixed;
+	
+}*/
+.content
+{
+    background-color: white;
+    width: 99%;
+    height: 600px;
+    align: center;
+}
+
+
+.content2
+{
+	width:640px;
+	height: 50px;
+	background-color: white;
+	float: left;
+    padding: 0 10px 0 30px;
+}
+.header
+{
+    width: 99%;
+    height: 40px;
+    z-index: 0;
+    background-color: white;
+}
+.header-content
+{
+    width: 46.5%;
+    height: 50px;
+    background-color: white;
+    float: left;
+    padding: 0 10px 0 30px;
+}
+
+/*.body{
+	 margin-top: 20px;
+	margin-left: 40px;
+	
+	width: 1300px;
+	height: 760px;
+	background-color: white;
+	float: right;
+}*/
+.body-content
+	{
+	margin-top: 10px;
+	margin-left: 200px;
+	width: 90%;
+	height: 90%;
+	background-color: white;
+	float: right;
+	padding-top: 0px;
+}
+
+.body01{
+	width: 975px;
+	height: 740px;
+	background-color: white;
+	float: left;
+	
+	
+}
+
+.body01b{
+	width: 325px;
+	height: 640px;
+	background-color: white;
+	float: left;
+	
+} 
+.body01c{
+	width: 173px;
+	height: 189px;
+	background-color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
+.body01a{
+	width: 325px;
+	height: 300px;
+	background-color: white;
+	float: left;
+	position: relative;
+	padding: 10px 0 0 0 ;
+}
+.emo{
+	width: 325px;
+	height: 30px;
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-bottom: 10px;
+	padding-right: 20px;
+}
+.body01a1{
+	width: 300px;
+	height: 370px;
+	background-color: white;
+	float: left;
+}
+.menu{
+	width:10px;
+	height: 840px;
+	background-color: white;
+	float: left;
+}
+body {
+  font-family: "montserrat";
+	
+}
+div.body01c{
+	line-height: 90%;
+}
+.texicon
+{
+	font-family: montseratt;
+	padding-top: 15px;
+	font-size: 10px;
+	margin: 0px 10px 0px 10px;
+	height: 23px;
+	width: 10px;
+	float: right;
+	background-color: white;
+}
+.icons
+{
+	font-family: montseratt;
+	padding-top: 8px;
+	font-size: 10px;
+	margin: 0px 10px 0px 10px;
+	height: 30px;
+	width: 25px;;
+	float: right;
+	background-color: white;
+}
+
+
+
+.side-nav {
+    height: inherit;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 14%;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 200px;
+}
+.side-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.side-nav a:hover {
+    color: #f1f1f1;
+}
+.side-nav .close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.card {
+        margin-top: 20px;
+	margin-left: 40px;
+	
+	
+	 z-index: -1;	
+}
+.search {
+    display: inline-block;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    box-sizing: border-box;
+    margin: 7px 0px 8px 0px;
+    padding: 7px 10px 0px 9px;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    cursor: text;
+}
+.search:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 20px;
+    right: -5px;
+    top: 21px;
+    background: #000000;
+    border-radius: 3px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.search.active, .search:hover {
+    width: 500px;
+    margin-right: 0px;
+    height: 38px;
+}
+.search.active:after, .search:hover:after {
+    height: 0px;
+}
+.search input {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: inherit;
+    background: transparent;
+    outline-width: 0px;
+}
+#search-bar {
+    padding-top: 10px;
+    text-align: right;
+    text-transform: uppercase;
+}
+p span{
+	margin-top: 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: montseratt;
+  src: url("../fonts/Montserrat-Regular.otf");
+}
+
+@font-face {
+  font-family: montserattbold;
+  src: url("../fonts/Montserrat-Bold.otf");
+}
+
+.content
+{
+	background-color: white;
+	width: 1600px;
+	height: 1620px;
+}
+
+.header
+{
+	width: 1440px;
+	height: 50px;
+	 z-index: -1;	
+	background-color: white;
+}
+
+.content2
+{
+	width:640px;
+	height: 50px;
+	background-color: white;
+	float: left;
+    padding: 0 10px 0 30px;
+}
+
+.content3
+{
+	width: 1600px;
+	height: 626px;
+	background-color: white;
+}
+.blog
+{
+	margin-top: 20px;
+	margin-left: 120px;
+	width: 1200px;
+	height: 1620px;
+	float:left;
+	background-color: white;
+}
+
+.blog1
+{
+	margin-top: 20px;
+	width: 200px;
+	height: 1620px;
+	float: left;
+	background-color: aliceblue;
+}
+
+.text1
+{
+	font-family: montseratt;
+	font-size: 15px;
+	margin: 10px;
+	padding-top: 6px;
+	width: auto;
+	height: 25px;
+	background-color: white;
+}
+
+.textheader
+{
+	font-family: montserattbold;
+	padding-top: 8px;
+	font-size: 28px;
+	margin: 10px;
+	height: 70px;
+	width: auto;
+	background-color: white;
+}
+
+.icons
+{
+	font-family: montseratt;
+	padding-top: 8px;
+	font-size: 10px;
+	margin: 0px 10px 0px 10px;
+	height: 30px;
+	width: 25px;;
+	float: left;
+	background-color: white;
+}
+
+.texicon
+{
+	font-family: montseratt;
+	padding-top: 15px;
+	font-size: 10px;
+	margin: 0px 10px 0px 10px;
+	height: 23px;
+	width: 10px;
+	float: left;
+	background-color: white;
+}
+
+.text2
+{
+	font-family: montseratt;
+	font-size: 13px;
+	margin: 10px;
+	padding-top: 5px;
+	width: auto;
+	height: 50px;
+	float: left;
+	background-color: white;
+}
+
+.clear
+{
+	clear: both;
+}
+.slider
+{
+	width: auto;
+	height: 300px;
+	margin: 10px;
+	background-image: url("../images/blog kitchen.png")
+}
+
+.text3
+{
+	font-family: montseratt;
+	font-size: 13px;
+	margin: 10px;
+	padding-top: 5px;
+	width: auto;
+	height: 180px;
+	float: left;
+	background-color: white;
+}
+
+.text4
+{
+	font-family: montseratt;
+	font-size: 13px;
+	margin: 0px 10px 0px 10px;
+	padding-top: 6px;
+	width: auto;
+	height: 20px;
+	text-align: right;
+	background-color: white;
+}
+
+.wrapper
+{
+	font-family: montseratt;
+	font-size: 10px;
+	width: auto;
+	margin: 0 10px 0 10px;
+	height: 50px;
+	background-color: white;
+}
+
+.button
+{
+	font-family: montseratt;
+	font-size: 10px;
+	border-radius: 25px;
+	margin: 0px 30px 0 0px;
+	padding-top: 7px;
+	padding-left: 8px;
+	width: 62px;
+	height: 23px;
+	float: left;
+	background-image: linear-gradient(to right, #000, #5d3522);
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.button2
+{
+	font-family: montseratt;
+	font-size: 1px;
+	margin: 20px -40px 0 40px;
+	width: 62px;
+	height: 23px;
+	float: right;
+}
+
+.content4
+{
+	width: auto;
+	height: 500px;
+	margin: 0 10px 0 10px;
+	background-color: white;
+}
+
+.item
+{
+	width: 25%;
+	margin-top: 60px;
+	height: 90px;
+	float: left;
+}
+
+
+

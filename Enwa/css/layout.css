@@ -7,7 +7,7 @@
 }
 .header {
     width: 99%;
-    height: 40px;
+    height: 126px;
     z-index: 0;
     background-color: white;
 }
@@ -15,9 +15,9 @@ body {
     font-family: "montserrat";
 }
 .menu-icon {
-    position: relative;
+    position: fixed;
     z-index: 99;
-    left: 35px;
+    left: 5px;
     top: 300px;
 }
 .header-content {
@@ -29,7 +29,7 @@ body {
 }
 #logo {
     padding-top: 50px;
-    padding-left: 50px;
+    padding-left: 40px;
     cursor: pointer;
 }
 #search-bar {
@@ -146,7 +146,7 @@ body {
     width: 0;
     position: fixed;
     z-index: 100;
-    top: 161px;
+    top: 119px;
     left: 0;
     background-color: white;
     overflow-x: hidden;

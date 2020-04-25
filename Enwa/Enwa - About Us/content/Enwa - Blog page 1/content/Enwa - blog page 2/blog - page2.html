@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Open Shelving</title>
+	
+	<link href="css/main.css" rel="stylesheet">
+	
+	
+</head>
+
+<body>
+	<div class="content">
+		<div class="header">
+    <div class="header-content" id="logo"> <img src="images/Enwa Logo-03.png" height="60" width="70" /> </div>
+    <div class="header-content" id="search-bar">
+      <h2>
+        <label class="search" for="input_search">
+          <input id="input_search" type="text" />
+        </label>
+      </h2>
+    </div>
+  </div>
+		<div id="mySidenav" class="side-nav"> <a href="javascript:void(0)" class="close-btn" onclick="closeNav()"
+          >&times;</a
+        > <a href="#">Product</a> <a href="#">Blog</a> <a href="#">About us</a> <a href="#">Contact us</a> <a href="#"><img src="images/shop icon-01.jpg" height="30" /></a> </div>
+  <a class="menu-icon"> <img
+          src="./images/hamburger_icon.png"
+          width="150px"
+          height="85px"
+          onmouseover="openNav()"
+        /> </a>
+		<div class="body-content">
+		<div class="body-content1">
+			<div class="text1">
+					Lorem ipsum
+				</div>
+				
+				<div class="textheader" style="color: #5d3522;">
+					Open Shelving<br>
+					10 Gorgeous takes on the Open Shelving Trend
+				</div>
+			<div class="icons">
+					<img src="images/favorite_border-24px.svg" alt="favorite">
+				</div>
+				
+				<div class="texicon">123</div>
+				
+				<div class="icons">
+					<img src="images/schedule-24px.svg" alt="schedule">
+				</div>
+				
+				<div class="texicon">1/3/2020</div>
+			<div class="text2">
+					Taking advantage of vertical wall space, a pair of metal shelves draws your eyes upward while also spotlighting the marble farm sink below. The accessories, neutral save for subtle pops of yellow, are smartly organized with the most frequently used pieces on the easy-to-reach bottom shelves and the once-in-a-blue-moon platters and vases stashed on the uppermost shelves.
+
+				</div>
+			<div class="clear"></div>
+				
+				<div class="slider">
+				</div>
+			
+			<div class="text3">
+				All-white open shelving fades into the background, leaving your focus on an eclectic serveware collection of vintage sake vessels, wooden bowls, and earthenware mugs styled as artfully as objets on a bookshelf—a mix of vertical and horizontal vignettes, alternating patterns and neutrals, and everything grouped by type.
+				<br>
+				A place for everything and everything in its place perfectly describes a built-in that was purpose-made for showing off a china collection when stacking the plates just won’t do. A mix of open shelves and cabinets gives you the best of both worlds—a behind-closed-doors spot to stash the less-than-pretty items in your life (necessary sippy cups, beloved World’s Best Dad mugs) and plenty of in-view space to display your sleek canister collection, cookbooks, and piece of art or two. In-the-know designers love a collection because even the most mundane items look stellar when en masse. Not that there’s anything mundane about a gorgeous grouping of white tureens, but their similar size and scale adds punch to this white-on-white shelfscape.<br>
+				Since open shelving lets your eyes pass all the way to the wall behind it, it’s a great way to show off a pretty wall treatment. When combined with another right-now trend—subway tile—you get a look that’s both old-school cool and easy to clean.</div>
+				
+				<div class="clear"></div>
+				
+				<div class="text4">Decorating ideas</div>
+			<div class="wrapper">
+					<div class="button"><a href="#" style="color: #fff">#DIYS</a></div>
+					<div class="button"><a href="#" style="color: #fff">#Trends</a></div>
+					<div class="button"><a href="#" style="color: #fff">#Tips</a></div>
+					<div class="button"><a href="#" style="color: #fff">#Decor</a></div>
+					
+					<div class="button2">
+						<a href="#"><img src="images/favorite_border-24px.svg"></a>
+					</div>
+					<div class="button2">
+						<a href="#"><img src="images/reply-24px.svg"></a>
+					</div>
+				</div>
+			<div class="body-content1a">
+					<div class="item">
+						<img src="images/Untitled-2-Recokvered.png" width="220px">
+					</div>
+					<div class="item">
+						<img src="images/brick2.png" width="220px">
+					</div>
+					<div class="item">
+						<img src="images/2d.png" width="220px">
+					</div>
+					<div class="item">
+						<img src="images/45.png" width="220px">
+					</div>
+					<div class="item2">
+						<a href="#"><h4 style="color: #000;">Pallet Coffee Cup Rack</h4></a><br>
+						Looking for some cute DIY kitchen counter decorate Brick
+					</div>
+					<div class="item2">
+						<a href="#"><h4 style="color: #000;">Brick House</h4></a><br>
+						Looking for a backsplash alternative to typical
+					</div>
+					<div class="item2">
+						<a href="#"><h4 style="color: #000;">DIY Kitchen Island With Trash Storage</h4></a><br>
+						This DIY kitchen island tutorial works even if you have a 
+					</div>
+					<div class="item2">
+						<a href="#"><h4 style="color: #000;">Cerused Wood</h4></a><br>
+						Cerused wood, which involves applying colored 
+					</div>
+					<div class="clear"></div>
+					
+					<div class="arrows">
+						<a href=""><img src="images/arrows.png" width="90px" align="left"></a>
+					</div>
+				
+				
+				</div>
+		
+		</div>
+			<div class="body-content2">
+				<div class="block"></div>
+			</div>
+			</div>
+	</div>
+	
+	
+	<script src="./javascript/index.js"></script>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    $("#input_search").on("focus", function () {
+      $(this).parent("label").addClass("active");
+    });
+
+    $("#input_search").on("blur", function () {
+      if ($(this).val().length == 0)
+        $(this).parent("label").removeClass("active");
+    });
+  </script>
+	
+</body>
+</html>

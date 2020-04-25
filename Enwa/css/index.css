@@ -87,8 +87,8 @@
 .slide {
   z-index: -1;
   padding: 0;
-  position: absolute;
-  width: 100%;
+  position: fixed;
+  width: 99%;
   height: 100vh;
   -webkit-transition: z-index 1s ease;
   transition: z-index 1s ease;
@@ -102,13 +102,13 @@
   position: relative;
   margin: 0 auto;
   height: 95%;
-  width: 95%;
+  width: 100%;
   top: 2.5%;
 }
 @media (min-width: 54em) {
   .slide__content {
     height: 80%;
-    width: 95%;
+    width: 100%;
   }
 }
 .slide__header {

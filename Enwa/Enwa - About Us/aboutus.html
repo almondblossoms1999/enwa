@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>About us</title>
+<link href="/images/Enwa Logo-03.png" rel="icon">
+<link href="./css/layout.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="content">
+  <div class="header">
+    <div class="header-content" id="logo"> 
+		<a href="../index.html">
+		
+			<img src="images/Enwa Logo-03.png" height="60" width="70" /> </div>
+		</a>
+    <div class="header-content" id="search-bar">
+      <h2>
+        <label class="search" for="input_search">
+          <input id="input_search" type="text" />
+        </label>
+      </h2>
+    </div>
+  </div>
+  <div id="mySidenav" class="side-nav"> <a href="javascript:void(0)" class="close-btn" onclick="closeNav()"
+          >&times;</a
+		> <a href="../items.html">PRODUCT</a> <a href="../Enwa - Blog page 1/blog.html">BLOG</a> <a href="../Enwa - About Us/aboutus.html">
+			ABOUT US</a> <a href="../Enwa - Contact us 2/contact.html">CONTACT US</a> <a href="../Enwa - Shopping cart/Shopping Cart 1.html"><img src="images/shop icon-01.jpg" height="30" /></a>
+		</div>
+  <a class="menu-icon"> <img
+          src="./images/hamburger_icon.png"
+          width="150px"
+          height="85px"
+          onmouseover="openNav()"
+        /> </a>
+	<div class="body-content">
+		<div class="body-content1"></div>
+		<div class="body-content2">
+			<div class="body-content2a"><span style="color:#5b3422">ABOUT US</span></div>
+			<div class="body-content2b">
+				<img src="images/about us.png" width="250px">
+			</div>
+			<div class="body-content2c">
+				<p><b>ENWA - end with warmth,</b> is a high-end kitchen furniture
+                brand made in Vietnam.</p>
+				<p>We were born as a friend to help the kitchen of each family to be
+                greater. With our core values being useful - quality and aesthetic, Enwa
+                is confident to bring the customer the items not only meet the
+                needs of use but also have high aesthetics so that customers
+                can use it in many more ways than one. ENWA's products can be used as an
+                item kitchen when it's needed and still be able to decorate in
+                any space (studio, coffee shop, store,..).
+                </p>
+				<p>With a dedicated staff and diversified products, ENWA is proud
+                and confident to accompany every home around the world.</p>
+			</div>
+			<div class="body-content2c">
+				<a href=""><img src="images/arrows.png" width="70px;" align="left"></a>
+			</div>
+		</div>
+		<div class="body-content3">
+			<div class="body-content3a">
+				<div class="body-content3b">
+					<img src="images/1a5.png" width="190px;">
+				</div>
+				<div class="body-content3b">
+					<img src="images/1a4.png" width="190px;">
+				</div>
+				<div class="body-content3b">
+					<img src="images/1a7.png" width="190px;">
+				</div>
+				<div class="body-content3b">
+					<img src="images/1a6.png" width="190px;">
+				</div>
+				<div class="body-content3b">
+					<img src="images/1a1.png" width="190px;">
+				</div>
+				<div class="body-content3b">
+					<img src="images/1aa3.png" width="190px;">
+				</div>
+				<div class="body-content3b">
+					<img src="images/1a2.png" width="190px;">
+				</div>
+				<div class="body-content3b">
+					<img src="images/1a8.png" width="190px;">
+				</div>
+				<div class="body-content3b">
+					<img src="images/1a9.png" width="190px;">
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+<script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous"
+  ></script>
+<script src="./javascript/index.js"></script>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    $("#input_search").on("focus", function () {
+      $(this).parent("label").addClass("active");
+    });
+
+    $("#input_search").on("blur", function () {
+      if ($(this).val().length == 0)
+        $(this).parent("label").removeClass("active");
+    });
+  </script>
+</html>

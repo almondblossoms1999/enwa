@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shopping Cart 1</title>
+	
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/layout.css" rel="stylesheet">
+	
+</head>
+
+<body>
+	<div class="content">
+		<div class="header">
+			<div class="header-content" id="logo"> 
+				<img src="images/Enwa Logo-03.png" height="60" width="70"/> 
+			</div>
+
+			<div class="header-content2" id="search-bar">
+			  <h2>
+				<label class="search" for="input_search">
+				  <input id="input_search" type="text" />
+				</label>
+			  </h2>
+			</div>
+		</div>
+		
+		<div id="mySidenav" class="side-nav"> 
+				<a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a> 
+				<a href="#">Product</a>
+				<a href="#">Blog</a>
+				<a href="#">About us</a>
+				<a href="#">Contact us</a>
+				<a href="#"><img src="images/shop icon-01.jpg" height="30" /></a> 
+		</div>
+		
+		<a class="menu-icon"> 
+			<img
+			  src="./images/hamburger_icon.png"
+			  width="150px"
+			  height="85px"
+			  onmouseover="openNav()"/> 
+		</a>
+		
+		<div class="body-content">
+			
+			<div class="cart-section">
+				<div class="cart-title" style="padding-top: 4.8%">
+					YOUR CART
+					<div class="cart-divider"></div>
+				</div>
+				
+				<div class="cart-clear-all click" id="button1">
+					<div class="cart-clear-all-button">
+						<div class="cart-clear-all-button-text">CLEAR ALL</div>
+					</div>
+				</div>
+				
+				<div class="cart-item" id="item1">
+					<div class="cart-item-photo click">
+						<img class="cart-item-photo1" src="images/Old Havana Plates.jpg" alt="plates">
+						<a href="Product.html"></a>
+					</div>
+					<div class="cart-item-text click"><a href="Product.html" style="text-decoration : none; color : #5d3522;"> Old Havana Plates</a></div>
+					<div class="cart-item-text2">PRICE: <b>300.000VND</b></div>
+					<div class="cart-item-text3">CONDITION: <b>AVAILABLE</b></div>
+					<div class="cart-item-delete-button">
+						<div class="cart-item-delete-icon-holder click">
+							<img class="cart-item-delete-icon" src="images/Delete button.svg" alt="deleteicon">
+						</div>
+						<div class="cart-item-delete-text click">DELETE</div>
+					</div>
+					
+				</div>
+				
+				<div class="cart-item" id="item2">
+					<div class="cart-item-photo click">
+						<img class="cart-item-photo1" src="images/Ilana Matte Set.jpg" alt="teapot">
+					</div>
+					<div class="cart-item-text click"><a href="Product.html" style="text-decoration : none; color : #5d3522;"> Ilana Matte Set</a></div>
+					<div class="cart-item-text2">PRICE: <b>500.000VND</b></div>
+					<div class="cart-item-text3">CONDITION: <b>AVAILABLE</b></div>
+					<div class="cart-item-delete-button">
+						<div class="cart-item-delete-icon-holder click">
+							<img class="cart-item-delete-icon" src="images/Delete button.svg" alt="deleteicon">
+						</div>
+						<div class="cart-item-delete-text click">DELETE</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<script>
+			$(document).ready(function(){
+			  $("button1").click(function(){
+				$("#item1 #item2").remove();
+			  });
+			});
+			</script>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div class="cart-section">
+				<div class="cart-title" style="padding-top: 4.8%">
+					YOUR ORDER
+					<div class="cart-divider"></div>
+				</div>
+				<div class="order-detail">
+					<div class="order-detail-discount">
+						<div class="order-detail-discount-text">ENTER DISCOUNT CODE</div>
+						<div class="order-detail-discount-input"><input type="text" style="width: 100%"></div>
+						<div class="order-detail-discount-apply click">APPLY</div>
+					</div>
+					
+					<div class="order-detail-item">
+						<div class="order-detail-item-name">OLA HAVANA PLATES</div>
+						<div class="order-detail-item-amount">x1</div>
+						<div class="order-detail-item-price">300.000VND</div>
+					</div>
+					
+					<div class="order-detail-item">
+						<div class="order-detail-item-name">IILANA MATTE SET</div>
+						<div class="order-detail-item-amount">x1</div>
+						<div class="order-detail-item-price">500.000VND</div>
+					</div>
+					
+				</div>
+				<div class="order-detail">
+					<div class="order-detail-price-discount">
+						<div class="order-detail-price-discount-price">
+							<div class="order-detail-price-discount-text">PRICE</div>
+							<div class="order-detail-price-discount-number">800.000VND</div>
+						</div>
+						
+						<div class="order-detail-price-discount-discount">
+							<div class="order-detail-price-discount-text">DISCOUNT</div>
+							<div class="order-detail-price-discount-number">0%</div>
+						</div>
+						
+					</div>
+					
+					<div class="order-detail-total">
+						<div class="order-detail-total-text">TOTAL</div>
+						<div class="order-detail-total-number">800.000VND</div>
+					</div>
+					
+					<a href="Shopping Cart 2.html">
+					<div class="order-detail-next">
+						<div class="order-detail-next-button click">
+							NEXT
+						</div>
+					</div></a>
+					
+				</div>
+				</div>
+				
+			</div>
+			
+			
+		</div>
+		
+	</div>
+	
+	
+	<script src="./javascript/index.js"></script>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    $("#input_search").on("focus", function () {
+      $(this).parent("label").addClass("active");
+    });
+
+    $("#input_search").on("blur", function () {
+      if ($(this).val().length == 0)
+        $(this).parent("label").removeClass("active");
+    });
+  </script>
+	
+</body>
+</html>

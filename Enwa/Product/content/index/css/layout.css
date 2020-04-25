@@ -1,0 +1,173 @@
+.content {
+    background-color: white;
+    width: 99%;
+    height: 850px;
+    position: fixed;
+    align: center;
+}
+.header {
+    width: 99%;
+    height: 126px;
+    z-index: 0;
+    background-color: white;
+}
+body {
+    font-family: "montserrat";
+}
+.menu-icon {
+    position: fixed;
+    z-index: 99;
+    left: 5px;
+    top: 300px;
+}
+.header-content {
+    width: 46.5%;
+    height: 50px;
+    background-color: white;
+    float: left;
+    padding: 0 10px 0 30px;
+}
+#logo {
+    padding-top: 50px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+#search-bar {
+    padding-top: 50px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.card {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 1371px;
+    height: 626px;
+    z-index: -1;
+    background-color: red;/* background: url("../image/h.png"); */
+}
+.card:hover {
+    transition: 1s;
+}
+.search {
+    display: inline-block;
+    position: relative;
+    height: 35px;
+    width: 35px;
+    box-sizing: border-box;
+    margin: 7px 0px 8px 0px;
+    padding: 7px 10px 0px 9px;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    cursor: text;
+}
+.search:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 20px;
+    right: -5px;
+    top: 21px;
+    background: #000000;
+    border-radius: 3px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.search.active, .search:hover {
+    width: 500px;
+    margin-right: 0px;
+    height: 38px;
+}
+.search.active:after, .search:hover:after {
+    height: 0px;
+}
+.search input {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: inherit;
+    background: transparent;
+    outline-width: 0px;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.card {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 1371px;
+    height: 626px;
+    z-index: -1;
+    background-color: red;/* background: url("../image/h.png"); */
+}
+.card:hover {
+    transition: 1s;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #008cba;
+}
+.container:hover .overlay {
+    opacity: 0.6;
+}
+.side-nav {
+    height: inherit;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 161px;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 150px;
+}
+.side-nav a {
+    padding: 33px 8px 8px 63px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+.side-nav a:hover {
+    color: #f1f1f1;
+}
+.side-nav .close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
